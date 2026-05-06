@@ -213,19 +213,17 @@
   .slot-body p { margin: 0; color: var(--gray-500); font-size: 14px; }
 
   /* ───────── 연사 ───────── */
-  /* 강사 3인 그룹 사진 — 포스터에서 추출. 좌측 인물이 원본 디자인 상 텍스트와
-     매우 가까이 붙어있어 깔끔히 잘라내기 어려워, 좌측을 마스크로 fade-out 처리해
-     의도된 cropping처럼 보이게 함. (2026-05-06) */
+  /* 연사 사진 — 원본 포스터에서 추출. 좌측 인물(김병준 대표)은 포스터 디자인상
+     텍스트와 너무 가까이 붙어 깔끔히 잘라낼 수 없어 일단 제외. 본인 프로필 사진을
+     별도 받으면 좌측에 합성 예정. 현재는 홍승희 대표 + 강인수 매니저 2인. (2026-05-06) */
   .speakers-photo {
     display: block;
     width: 100%;
-    max-width: 480px;
+    max-width: 360px;
     height: auto;
     margin: 0 auto 28px;
     border-radius: 16px;
     box-shadow: 0 10px 28px rgba(0,0,0,.10);
-    -webkit-mask-image: linear-gradient(to right, transparent 0%, #000 11%, #000 100%);
-            mask-image: linear-gradient(to right, transparent 0%, #000 11%, #000 100%);
   }
 
   .speakers { display: grid; grid-template-columns: 1fr; gap: 14px; }
@@ -688,11 +686,12 @@
     <h2 class="section-title">연사 소개</h2>
     <p class="section-lead">정책자금 · 수출 · 글로벌 B2B 각 분야 최고 실무 전문가들이 직접 강의합니다.</p>
 
-    <!-- 강사 3인 그룹 사진. 신뢰감/실재감 부여. lazy로 첫 화면 부담 없음 -->
+    <!-- 연사 사진 (홍승희 대표, 강인수 매니저). 김병준 대표 본인 사진은
+         별도 받는 대로 합성 예정. 신뢰감/실재감 부여, lazy로 첫 화면 부담 없음 -->
     <img class="speakers-photo"
          src="speakers-group.jpg"
-         alt="2026 충청권 수출 전략 세미나 강사진 — 김병준 대표, 홍승희 대표, 강인수 매니저"
-         width="498" height="405"
+         alt="연사진 — 홍승희 대표(루아솔루션스), 강인수 매니저(알리바바닷컴)"
+         width="395" height="405"
          loading="lazy" />
 
     <div class="speakers">
