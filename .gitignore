@@ -17,3 +17,6 @@ desktop.ini
 *.pem
 credentials*
 secret*
+
+# Firebase 배포 캐시 - deploy 시 자동 생성, 커밋 불필요
+.firebase/
