@@ -1,0 +1,1068 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<!-- 모바일 카카오톡 공유 사용자 다수 → viewport 설정 필수 -->
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#FF6A00" />
+<title>2026 충청권 수출 전략 세미나 | 정부 지원금 + 수출바우처</title>
+<meta name="description" content="2026년 5월 14일(수) 오후 2시, 대전 테크노파크 어울림플라자. 정부 지원금·정책자금과 수출바우처 활용 전략을 한 자리에서. 알리바바닷컴 공식 세미나." />
+
+<!-- 카카오톡/SNS 공유 시 노출되는 OG 메타. 이미지 URL은 GitHub Pages 배포 후 절대경로로 교체 권장 -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="2026 충청권 수출 전략 세미나" />
+<meta property="og:description" content="정부 지원금 + 수출바우처, 한 자리에서 파악하기 · 5/14(수) 14:00 · 대전 테크노파크" />
+<meta property="og:image" content="og-image.jpg" />
+<meta property="og:locale" content="ko_KR" />
+
+<!-- Pretendard: 한국어 가독성 우수, CDN 제공 -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+
+<style>
+  :root {
+    /* 알리바바 브랜드 오렌지 + 신뢰감 있는 다크 네이비 조합 */
+    --orange: #ff6a00;
+    --orange-deep: #e85f00;
+    --navy: #0b2545;
+    --ink: #1a1a1a;
+    --gray-700: #374151;
+    --gray-500: #6b7280;
+    --gray-300: #d1d5db;
+    --gray-100: #f3f4f6;
+    --gray-50: #f9fafb;
+    --bg: #ffffff;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,.06), 0 1px 3px rgba(0,0,0,.04);
+    --shadow-md: 0 6px 16px rgba(0,0,0,.08), 0 2px 4px rgba(0,0,0,.04);
+    --radius: 14px;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  img { max-width: 100%; height: auto; display: block; }
+  a { color: inherit; }
+
+  /* 컨테이너 폭 — 모바일 우선, 데스크톱 가독폭 760px */
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
+
+  /* ───────── HERO ───────── */
+  .hero {
+    background:
+      radial-gradient(1200px 400px at 20% -10%, rgba(255,106,0,.18), transparent 60%),
+      linear-gradient(180deg, #fff7ef 0%, #ffffff 100%);
+    padding: 56px 0 40px;
+    border-bottom: 1px solid var(--gray-100);
+  }
+  .badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--orange);
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .02em;
+  }
+  .badge-dot { width: 6px; height: 6px; background: #fff; border-radius: 50%; animation: pulse 1.6s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+  h1.title {
+    font-size: clamp(28px, 6.4vw, 44px);
+    line-height: 1.2;
+    margin: 18px 0 10px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+  }
+  .subtitle {
+    font-size: clamp(16px, 3.6vw, 20px);
+    color: var(--gray-700);
+    font-weight: 500;
+    margin: 0 0 24px;
+  }
+  .subtitle .hl { color: var(--orange); font-weight: 700; }
+
+  /* 핵심 정보 박스: 일시/장소 한눈에 */
+  .meta {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background: #fff;
+    border: 1px solid var(--gray-100);
+    border-radius: var(--radius);
+    padding: 18px;
+    margin: 8px 0 22px;
+    box-shadow: var(--shadow-sm);
+  }
+  .meta-row { display: flex; gap: 12px; align-items: flex-start; font-size: 15px; }
+  .meta-label {
+    flex: 0 0 56px;
+    color: var(--gray-500);
+    font-weight: 600;
+  }
+  .meta-value { color: var(--ink); font-weight: 600; }
+  .meta-value small { display: block; color: var(--gray-500); font-weight: 500; margin-top: 2px; }
+
+  /* D-day 카운트다운 — 모객 시급성 강조 */
+  .countdown {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    background: var(--navy);
+    color: #fff;
+    border-radius: var(--radius);
+    padding: 16px;
+    margin-bottom: 22px;
+  }
+  .cd-cell { text-align: center; }
+  .cd-num { font-size: clamp(22px, 5vw, 30px); font-weight: 800; letter-spacing: -.02em; }
+  .cd-label { font-size: 11px; color: #b8c5d9; margin-top: 2px; letter-spacing: .04em; }
+
+  /* CTA 버튼 — 색상 대비 강하게, 손가락 터치 영역 충분히 */
+  .cta-row { display: flex; flex-direction: column; gap: 10px; }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 16px 22px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: transform .08s ease, box-shadow .15s ease, background .15s ease;
+  }
+  .btn-primary {
+    background: var(--orange);
+    color: #fff;
+    box-shadow: 0 6px 16px rgba(255,106,0,.32);
+  }
+  .btn-primary:hover { background: var(--orange-deep); }
+  .btn-primary:active { transform: translateY(1px); }
+  .btn-secondary {
+    background: #fff;
+    color: var(--ink);
+    border: 1.5px solid var(--gray-300);
+  }
+  .btn-secondary:hover { border-color: var(--ink); }
+  .btn .arrow { transition: transform .15s ease; }
+  .btn:hover .arrow { transform: translateX(3px); }
+
+  .hosted-by {
+    display: flex; align-items: center; gap: 8px;
+    margin-top: 24px;
+    color: var(--gray-500);
+    font-size: 13px;
+  }
+  .hosted-by .alibaba { color: var(--orange); font-weight: 800; letter-spacing: -.01em; }
+
+  /* ───────── 공통 섹션 ───────── */
+  section { padding: 56px 0; }
+  section + section { border-top: 1px solid var(--gray-100); }
+  h2.section-title {
+    font-size: clamp(22px, 4.6vw, 30px);
+    font-weight: 800;
+    margin: 0 0 6px;
+    letter-spacing: -.02em;
+  }
+  .section-lead {
+    color: var(--gray-500);
+    font-size: 15px;
+    margin: 0 0 28px;
+  }
+
+  /* ───────── 왜 참석해야 하는가 ───────── */
+  .reasons { display: grid; grid-template-columns: 1fr; gap: 14px; }
+  .reason {
+    background: var(--gray-50);
+    border-radius: var(--radius);
+    padding: 22px;
+    border-left: 4px solid var(--orange);
+  }
+  .reason h3 { margin: 0 0 6px; font-size: 18px; font-weight: 700; }
+  .reason p { margin: 0; color: var(--gray-700); font-size: 15px; }
+
+  /* ───────── 프로그램 일정 ───────── */
+  .schedule { display: flex; flex-direction: column; gap: 0; }
+  .slot {
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    gap: 16px;
+    padding: 18px 0;
+    border-bottom: 1px dashed var(--gray-300);
+  }
+  .slot:last-child { border-bottom: none; }
+  .slot-time {
+    font-variant-numeric: tabular-nums;
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 2px;
+  }
+  .slot-body h4 { margin: 0 0 4px; font-size: 16px; font-weight: 700; }
+  .slot-body p { margin: 0; color: var(--gray-500); font-size: 14px; }
+
+  /* ───────── 연사 ───────── */
+  .speakers { display: grid; grid-template-columns: 1fr; gap: 14px; }
+  .speaker {
+    background: #fff;
+    border: 1px solid var(--gray-100);
+    border-radius: var(--radius);
+    padding: 22px;
+    box-shadow: var(--shadow-sm);
+  }
+  .speaker-head {
+    display: flex; align-items: baseline; gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  .speaker-name { font-size: 19px; font-weight: 800; letter-spacing: -.01em; }
+  .speaker-role { color: var(--orange); font-weight: 700; font-size: 14px; }
+  .speaker-org { color: var(--gray-500); font-size: 14px; }
+  .speaker ul { margin: 0; padding-left: 18px; color: var(--gray-700); font-size: 14.5px; }
+  .speaker li { margin: 4px 0; }
+
+  /* ───────── 장소 ───────── */
+  .venue {
+    background: var(--gray-50);
+    border-radius: var(--radius);
+    padding: 24px;
+  }
+  .venue-name { font-size: 18px; font-weight: 800; margin: 0 0 4px; }
+  .venue-addr { color: var(--gray-700); margin: 0 0 16px; font-size: 15px; }
+  .venue-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 8px 14px;
+    background: #fff;
+    border: 1px solid var(--gray-300);
+    border-radius: 999px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .chip:hover { border-color: var(--orange); color: var(--orange); }
+
+  /* ───────── FAQ ───────── */
+  details.faq {
+    background: #fff;
+    border: 1px solid var(--gray-100);
+    border-radius: 12px;
+    padding: 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  details.faq summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 18px 20px;
+    font-weight: 700;
+    font-size: 15.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+  details.faq summary::-webkit-details-marker { display: none; }
+  details.faq summary::after {
+    content: '+';
+    color: var(--orange);
+    font-size: 22px;
+    line-height: 1;
+    flex-shrink: 0;
+    transition: transform .15s ease;
+  }
+  details.faq[open] summary::after { content: '−'; }
+  details.faq .faq-body {
+    padding: 0 20px 18px;
+    color: var(--gray-700);
+    font-size: 14.5px;
+    line-height: 1.7;
+  }
+
+  /* ───────── 신청 섹션: 폼 → 비즈내일 워크스페이스 webhook 직결 ───────── */
+  .apply-section {
+    background: linear-gradient(135deg, #ff6a00 0%, #ff8a3d 100%);
+    color: #fff;
+    padding: 56px 0 64px;
+    text-align: center;
+  }
+  .apply-section h2 { font-size: clamp(22px, 4.6vw, 30px); margin: 0 0 8px; font-weight: 800; }
+  .apply-section .lead { margin: 0 0 28px; opacity: .95; font-size: 15px; }
+
+  .apply-form {
+    background: #fff;
+    color: var(--ink);
+    border-radius: 18px;
+    padding: 28px 22px;
+    text-align: left;
+    box-shadow: 0 18px 40px rgba(0,0,0,.18);
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .form-row { margin-bottom: 14px; }
+  .form-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  @media (min-width: 560px) {
+    .form-grid { grid-template-columns: 1fr 1fr; }
+    .apply-form { padding: 32px 28px; }
+  }
+
+  .field-label {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--gray-700);
+    margin-bottom: 6px;
+    letter-spacing: -.01em;
+  }
+  .req { color: var(--orange); margin-left: 2px; }
+
+  .apply-form input[type="text"],
+  .apply-form input[type="tel"],
+  .apply-form input[type="email"],
+  .apply-form textarea {
+    display: block;
+    width: 100%;
+    padding: 12px 14px;
+    border: 1.5px solid var(--gray-300);
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    color: var(--ink);
+    outline: none;
+    transition: border-color .12s ease, box-shadow .12s ease;
+    background: #fff;
+  }
+  .apply-form input::placeholder,
+  .apply-form textarea::placeholder { color: #9ca3af; }
+  .apply-form input:focus,
+  .apply-form textarea:focus {
+    border-color: var(--orange);
+    box-shadow: 0 0 0 3px rgba(255,106,0,.14);
+  }
+  .apply-form textarea { resize: vertical; min-height: 88px; }
+
+  /* 라디오 카드 그룹: 모바일에서 터치 영역 크게 + 선택 상태 시각화 */
+  .radio-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    margin-top: 2px;
+  }
+  @media (min-width: 460px) {
+    .radio-group.cols-2 { grid-template-columns: 1fr 1fr; }
+  }
+  .radio-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    border: 1.5px solid var(--gray-300);
+    border-radius: 10px;
+    cursor: pointer;
+    background: #fff;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: var(--ink);
+    transition: border-color .12s ease, background .12s ease, color .12s ease;
+    user-select: none;
+  }
+  .radio-card:hover { border-color: var(--orange); }
+  .radio-card input[type="radio"] {
+    width: 18px; height: 18px;
+    margin: 0;
+    flex-shrink: 0;
+    accent-color: var(--orange);
+    cursor: pointer;
+  }
+  /* :has() 미지원 구형 브라우저는 일반 라디오 + 기본 보더 표시. 모던 브라우저는 강조됨. */
+  .radio-card:has(input:checked) {
+    border-color: var(--orange);
+    background: #fff7ef;
+    color: var(--orange-deep);
+    font-weight: 700;
+  }
+
+  /* 허니팟 필드: 봇만 채움. 화면/스크린리더 모두에서 숨김 */
+  .hp-field {
+    position: absolute !important;
+    left: -9999px !important;
+    width: 1px; height: 1px;
+    overflow: hidden;
+  }
+
+  .agree {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    background: var(--gray-50);
+    padding: 14px;
+    border-radius: 10px;
+    margin: 4px 0 16px;
+    font-size: 12.5px;
+    color: var(--gray-700);
+    line-height: 1.55;
+    cursor: pointer;
+    user-select: none;
+  }
+  .agree input[type="checkbox"] {
+    margin-top: 2px;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    accent-color: var(--orange);
+    cursor: pointer;
+  }
+
+  .submit-btn {
+    width: 100%;
+    padding: 16px;
+    font-size: 17px;
+    background: var(--orange);
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 8px 18px rgba(255,106,0,.34);
+    transition: background .12s ease, transform .08s ease;
+  }
+  .submit-btn:hover:not(:disabled) { background: var(--orange-deep); }
+  .submit-btn:active:not(:disabled) { transform: translateY(1px); }
+  .submit-btn:disabled { opacity: .6; cursor: not-allowed; }
+
+  .form-msg {
+    margin-top: 14px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    min-height: 1px;
+  }
+  .form-msg.err { color: #d72c0d; }
+
+  /* 신청 완료 카드: 폼 자리에 들어감 */
+  .success-card {
+    background: #fff;
+    color: var(--ink);
+    border-radius: 18px;
+    padding: 40px 24px;
+    max-width: 560px;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 18px 40px rgba(0,0,0,.18);
+  }
+  .success-card .check {
+    width: 56px; height: 56px;
+    background: #00875a;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+  }
+  .success-card h3 { font-size: 22px; margin: 0 0 8px; font-weight: 800; }
+  .success-card .info {
+    margin-top: 18px;
+    padding: 16px;
+    background: #fff7ef;
+    border-radius: 10px;
+    font-weight: 700;
+    color: var(--orange-deep);
+  }
+  .success-card .small {
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--gray-500);
+    font-weight: 500;
+  }
+
+  /* ───────── 푸터 ───────── */
+  footer {
+    background: #fff;
+    color: var(--gray-500);
+    padding: 32px 0 40px;
+    font-size: 13px;
+    text-align: center;
+    border-top: 1px solid var(--gray-100);
+  }
+  footer p { margin: 4px 0; }
+  footer .org { color: var(--ink); font-weight: 700; }
+
+  /* ───────── 모바일 하단 고정 CTA ───────── */
+  /* 스크롤 중에도 신청 버튼 항상 노출 → 전환율 향상 */
+  .sticky-cta {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    background: rgba(255,255,255,.96);
+    backdrop-filter: saturate(140%) blur(8px);
+    -webkit-backdrop-filter: saturate(140%) blur(8px);
+    border-top: 1px solid var(--gray-100);
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+    z-index: 30;
+    display: none;
+  }
+  .sticky-cta .btn { width: 100%; padding: 14px; }
+  @media (max-width: 760px) {
+    .sticky-cta { display: block; }
+    body { padding-bottom: 80px; } /* 고정 CTA 가림 방지 */
+  }
+
+  /* 데스크톱: 일부 그리드 2열로 — 760px 이상에서 발생 */
+  @media (min-width: 720px) {
+    .reasons { grid-template-columns: repeat(3, 1fr); }
+    .speakers { grid-template-columns: repeat(1, 1fr); }
+    .meta { grid-template-columns: 1fr 1fr; }
+    .meta-row.full { grid-column: 1 / -1; }
+    .cta-row { flex-direction: row; }
+    .cta-row .btn { flex: 0 0 auto; }
+  }
+
+  /* 인쇄 시: 사용자가 출력해 가는 경우 깔끔하게 */
+  @media print {
+    .sticky-cta, .countdown, .cta-row { display: none !important; }
+    body { padding: 0; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ───────── HERO ───────── -->
+<header class="hero">
+  <div class="wrap">
+    <span class="badge"><span class="badge-dot"></span> 알리바바닷컴 공식 세미나 · 무료</span>
+    <h1 class="title">2026 충청권<br/>수출 전략 세미나</h1>
+    <p class="subtitle"><span class="hl">정부 지원금 + 수출바우처</span>, 한 자리에서 파악하기</p>
+
+    <!-- 핵심 정보 박스 -->
+    <div class="meta">
+      <div class="meta-row">
+        <span class="meta-label">일시</span>
+        <span class="meta-value">2026. 5. 14. (수) 오후 2시
+          <small>14:00 ~ 17:00 (3시간 · Q&amp;A 포함)</small>
+        </span>
+      </div>
+      <div class="meta-row">
+        <span class="meta-label">장소</span>
+        <span class="meta-value">대전 테크노파크 어울림플라자
+          <small>대전광역시 유성구 테크노9로 35, 대회의실</small>
+        </span>
+      </div>
+      <div class="meta-row full">
+        <span class="meta-label">대상</span>
+        <span class="meta-value">충청권 수출 희망 / 수출 진행 중인 중소기업 대표·실무자
+          <small>참가비 무료 · 선착순 마감</small>
+        </span>
+      </div>
+    </div>
+
+    <!-- D-day 카운트다운: JS가 매초 갱신. 세미나가 임박할수록 시급성 부각 -->
+    <div class="countdown" id="countdown" aria-label="세미나까지 남은 시간">
+      <div class="cd-cell"><div class="cd-num" id="cd-d">--</div><div class="cd-label">DAYS</div></div>
+      <div class="cd-cell"><div class="cd-num" id="cd-h">--</div><div class="cd-label">HOURS</div></div>
+      <div class="cd-cell"><div class="cd-num" id="cd-m">--</div><div class="cd-label">MIN</div></div>
+      <div class="cd-cell"><div class="cd-num" id="cd-s">--</div><div class="cd-label">SEC</div></div>
+    </div>
+
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#apply" data-cta="hero-primary">
+        지금 무료 신청하기
+        <span class="arrow">→</span>
+      </a>
+      <a class="btn btn-secondary" href="#program">
+        프로그램 자세히 보기
+      </a>
+    </div>
+
+    <div class="hosted-by">
+      주최 · <span class="alibaba">Alibaba.com</span>
+      <span style="margin: 0 4px;">|</span>
+      주관 · 내일플러스 · 루아솔루션스
+    </div>
+  </div>
+</header>
+
+<!-- ───────── 왜 참석해야 하는가 ───────── -->
+<section id="why">
+  <div class="wrap">
+    <h2 class="section-title">이 세미나가 필요한 이유</h2>
+    <p class="section-lead">"제도는 많은데, 우리 회사가 받을 수 있는 건 뭐지?" 라는 질문에 답을 드립니다.</p>
+
+    <div class="reasons">
+      <div class="reason">
+        <h3>흩어진 정보를 한 자리에</h3>
+        <p>정부 지원금 · 정책자금 · 수출바우처를 따로 찾아 헤매지 마세요. 핵심만 3시간에 정리합니다.</p>
+      </div>
+      <div class="reason">
+        <h3>실제 사례로 배우는 신청 전략</h3>
+        <p>탈락하지 않는 신청서 작성법과 선정 기업 실제 사례. 25년 현장 경력의 컨설턴트가 직접 공개합니다.</p>
+      </div>
+      <div class="reason">
+        <h3>알리바바닷컴 활용법</h3>
+        <p>국내 1위 글로벌 B2B 플랫폼 알리바바닷컴 공식 AM이 직접 강의. 수출바우처와의 결합 활용법까지.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 프로그램 ───────── -->
+<section id="program" style="background: var(--gray-50);">
+  <div class="wrap">
+    <h2 class="section-title">프로그램</h2>
+    <p class="section-lead">2026. 5. 14. (수) · 14:00 ~ 17:00</p>
+
+    <div class="schedule">
+      <div class="slot">
+        <div class="slot-time">14:00–14:10</div>
+        <div class="slot-body">
+          <h4>인사말</h4>
+          <p>참석자 환영 및 세미나 오리엔테이션</p>
+        </div>
+      </div>
+      <div class="slot">
+        <div class="slot-time">14:10–15:00</div>
+        <div class="slot-body">
+          <h4>정부 지원금 · 정책자금 구조와 활용 전략</h4>
+          <p>김병준 대표 (내일플러스) · 자격 요건부터 신청서 작성까지</p>
+        </div>
+      </div>
+      <div class="slot">
+        <div class="slot-time">15:00–15:50</div>
+        <div class="slot-body">
+          <h4>수출바우처 신청 전략 및 실제 사례</h4>
+          <p>홍승희 대표 (루아솔루션스) · 25년 무역·컨설팅 노하우</p>
+        </div>
+      </div>
+      <div class="slot">
+        <div class="slot-time">15:50–16:40</div>
+        <div class="slot-body">
+          <h4>알리바바닷컴 수출바우처 활용 전략</h4>
+          <p>강인수 AM (Alibaba.com) · 글로벌 B2B 플랫폼 운영 컨설팅</p>
+        </div>
+      </div>
+      <div class="slot">
+        <div class="slot-time">16:40–17:00</div>
+        <div class="slot-body">
+          <h4>Q&amp;A 및 개별 상담</h4>
+          <p>강사진 직접 답변 · 우리 회사 케이스 즉석 상담</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 연사 ───────── -->
+<section id="speakers">
+  <div class="wrap">
+    <h2 class="section-title">연사 소개</h2>
+    <p class="section-lead">정책자금 · 수출 · 글로벌 B2B 각 분야 최고 실무 전문가들이 직접 강의합니다.</p>
+
+    <div class="speakers">
+      <article class="speaker">
+        <div class="speaker-head">
+          <span class="speaker-name">김병준 대표</span>
+          <span class="speaker-role">정책자금 컨설팅</span>
+          <span class="speaker-org">· 내일플러스</span>
+        </div>
+        <ul>
+          <li>내일플러스 대표이사</li>
+          <li>알리바바코리아 공식 컨설팅 강사</li>
+          <li>기업 R&amp;D 지도사 · ESG 진단평가사</li>
+          <li>정부 정책자금 관련 자격 다수 보유</li>
+        </ul>
+      </article>
+
+      <article class="speaker">
+        <div class="speaker-head">
+          <span class="speaker-name">홍승희 대표</span>
+          <span class="speaker-role">수출바우처 컨설팅</span>
+          <span class="speaker-org">· 루아솔루션스</span>
+        </div>
+        <ul>
+          <li>무역 실무 15년 + 경영 컨설팅 10년 · 25년 현장 경력</li>
+          <li>ISO 9001 · 14001 · 45001 국제 심사원</li>
+          <li>정부지원사업 전문지도사</li>
+        </ul>
+      </article>
+
+      <article class="speaker">
+        <div class="speaker-head">
+          <span class="speaker-name">강인수 AM</span>
+          <span class="speaker-role">Sr. Account Manager</span>
+          <span class="speaker-org">· Alibaba.com</span>
+        </div>
+        <ul>
+          <li>알리바바닷컴 한국지사 GGS Account Manager</li>
+          <li>글로벌 B2B 수출 전략 및 플랫폼 운영 컨설팅</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── 장소 ───────── -->
+<section id="venue" style="background: var(--gray-50);">
+  <div class="wrap">
+    <h2 class="section-title">오시는 길</h2>
+    <p class="section-lead">대전 도심에서 차로 약 20분 · 대중교통/주차 모두 편리</p>
+
+    <div class="venue">
+      <p class="venue-name">대전 테크노파크 어울림플라자 대회의실</p>
+      <p class="venue-addr">대전광역시 유성구 테크노9로 35</p>
+      <div class="venue-actions">
+        <!-- 외부 지도 검색 링크: 사용자가 가장 익숙한 앱에서 열도록 두 가지 모두 제공 -->
+        <a class="chip" href="https://map.kakao.com/?q=%EB%8C%80%EC%A0%84%20%EC%9C%A0%EC%84%B1%EA%B5%AC%20%ED%85%8C%ED%81%AC%EB%85%B89%EB%A1%9C%2035" target="_blank" rel="noopener">카카오맵에서 보기 →</a>
+        <a class="chip" href="https://map.naver.com/p/search/%EB%8C%80%EC%A0%84%20%ED%85%8C%ED%81%AC%EB%85%B8%ED%8C%8C%ED%81%AC%20%EC%96%B4%EC%9A%B8%EB%A6%BC%ED%94%8C%EB%9D%BC%EC%9E%90" target="_blank" rel="noopener">네이버지도에서 보기 →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── FAQ ───────── -->
+<section id="faq">
+  <div class="wrap">
+    <h2 class="section-title">자주 묻는 질문</h2>
+    <p class="section-lead">신청 전 자주 받는 질문을 모았습니다.</p>
+
+    <details class="faq">
+      <summary>참가비가 있나요?</summary>
+      <div class="faq-body">전액 무료입니다. 알리바바닷컴이 주최하는 공식 무료 세미나입니다. 단, 자리 수가 제한적이라 사전 신청 선착순으로 마감됩니다.</div>
+    </details>
+    <details class="faq">
+      <summary>어떤 분이 참석하면 좋나요?</summary>
+      <div class="faq-body">충청권에서 수출을 준비 중이거나, 이미 시작했지만 정부 지원·수출바우처 활용을 더 효율적으로 하고 싶은 중소기업 대표·실무자에게 가장 도움이 됩니다. 동종업계가 아니라도 무관합니다.</div>
+    </details>
+    <details class="faq">
+      <summary>개별 상담도 가능한가요?</summary>
+      <div class="faq-body">네. 16:40부터 마련된 Q&amp;A 시간 동안 강사진에게 직접 우리 회사 상황을 가지고 질문하실 수 있습니다. 보다 깊은 1:1 컨설팅은 세미나 이후 별도로 안내드립니다.</div>
+    </details>
+    <details class="faq">
+      <summary>주차는 가능한가요?</summary>
+      <div class="faq-body">대전 테크노파크 어울림플라자 내 주차장 이용 가능합니다. 만차 시 인근 공영주차장 이용을 권장드립니다.</div>
+    </details>
+    <details class="faq">
+      <summary>자료는 제공되나요?</summary>
+      <div class="faq-body">현장 참석자에게 강의 자료(요약본)를 제공합니다. 일부 민감한 사례는 현장에서만 공유됩니다.</div>
+    </details>
+  </div>
+</section>
+
+<!-- ───────── 신청 섹션 ───────── -->
+<!-- 제출 시 비즈내일 워크스페이스 webhook(asia-northeast3) → Firestore inquiries 컬렉션 직접 기록 -->
+<section class="apply-section" id="apply">
+  <div class="wrap">
+    <h2>좌석은 한정되어 있습니다</h2>
+    <p class="lead">아래 정보를 입력하시면 즉시 신청이 접수됩니다.</p>
+
+    <form id="apply-form" class="apply-form" novalidate>
+      <!-- 허니팟: 봇만 채우는 미끼 필드. 값이 들어오면 서버 호출 없이 차단 -->
+      <div class="hp-field" aria-hidden="true">
+        <label>웹사이트 (입력하지 마세요)</label>
+        <input type="text" name="website" tabindex="-1" autocomplete="off" />
+      </div>
+
+      <div class="form-row">
+        <label class="field-label" for="f-company">기업명<span class="req">*</span></label>
+        <input id="f-company" type="text" name="company" required autocomplete="organization" placeholder="예) (주)내일플러스" />
+      </div>
+
+      <div class="form-row">
+        <label class="field-label" for="f-bizno">사업자등록번호<span class="req">*</span></label>
+        <input id="f-bizno" type="text" name="bizno" required inputmode="numeric" placeholder="000-00-00000" />
+      </div>
+
+      <div class="form-grid">
+        <div>
+          <label class="field-label" for="f-name">담당자 성명<span class="req">*</span></label>
+          <input id="f-name" type="text" name="name" required autocomplete="name" placeholder="홍길동" />
+        </div>
+        <div>
+          <label class="field-label" for="f-position">직급<span class="req">*</span></label>
+          <input id="f-position" type="text" name="position" required autocomplete="organization-title" placeholder="대표 / 무역팀장 등" />
+        </div>
+      </div>
+
+      <div class="form-grid">
+        <div>
+          <label class="field-label" for="f-phone">연락처<span class="req">*</span></label>
+          <input id="f-phone" type="tel" name="phone" required autocomplete="tel" inputmode="tel" placeholder="010-0000-0000" />
+        </div>
+        <div>
+          <label class="field-label" for="f-email">이메일<span class="req">*</span></label>
+          <input id="f-email" type="email" name="email" required autocomplete="email" placeholder="name@company.com" />
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label class="field-label" for="f-location">사업장 위치<span class="req">*</span></label>
+        <input id="f-location" type="text" name="location" required placeholder="예) 충청북도 청주시 / 대전광역시 등" />
+      </div>
+
+      <!-- 세미나 참석 목적: 라디오 4지선다. 충청권 기업 마케팅 인사이트 수집용 -->
+      <div class="form-row">
+        <span class="field-label">세미나 참석 목적<span class="req">*</span></span>
+        <div class="radio-group cols-2" role="radiogroup" aria-label="세미나 참석 목적">
+          <label class="radio-card"><input type="radio" name="purpose" value="내수 활성화" required /><span>내수 활성화</span></label>
+          <label class="radio-card"><input type="radio" name="purpose" value="수출 활성화" /><span>수출 활성화</span></label>
+          <label class="radio-card"><input type="radio" name="purpose" value="내수 및 수출 활성화" /><span>내수 및 수출 활성화</span></label>
+          <label class="radio-card"><input type="radio" name="purpose" value="교육 목적(세미나 참관)" /><span>교육 목적(세미나 참관)</span></label>
+        </div>
+      </div>
+
+      <!-- 수출 관련 이력: 강사진이 사전에 참석자 구성 파악할 수 있도록 -->
+      <div class="form-row">
+        <span class="field-label">수출 관련 이력<span class="req">*</span></span>
+        <div class="radio-group cols-2" role="radiogroup" aria-label="수출 관련 이력">
+          <label class="radio-card"><input type="radio" name="export_history" value="있음" required /><span>있음</span></label>
+          <label class="radio-card"><input type="radio" name="export_history" value="없음" /><span>없음</span></label>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label class="field-label" for="f-industry">산업군 / 주력제품 (선택)</label>
+        <input id="f-industry" type="text" name="industry" placeholder="예) 뷰티/기초화장품, 식품/소스류 등" />
+      </div>
+
+      <div class="form-row">
+        <label class="field-label" for="f-motivation">참석 동기 / 궁금하신 점 (선택)</label>
+        <textarea id="f-motivation" name="motivation" rows="3" placeholder="예) 정부 지원금 활용 방법이 궁금합니다."></textarea>
+      </div>
+
+      <label class="agree">
+        <input type="checkbox" name="agree" required />
+        <span>
+          <strong>(필수)</strong> 개인정보 수집·이용에 동의합니다.<br/>
+          수집 항목: 회사명·이름·직책·연락처·이메일 / 이용 목적: 세미나 안내 및 후속 컨설팅 제공 / 보유 기간: 세미나 종료 후 1년.
+        </span>
+      </label>
+
+      <button type="submit" class="submit-btn" id="submit-btn">무료 신청하기 →</button>
+      <div class="form-msg" id="form-msg" role="status" aria-live="polite"></div>
+    </form>
+  </div>
+</section>
+
+<!-- ───────── 푸터 ───────── -->
+<footer>
+  <div class="wrap">
+    <p class="org">주최 Alibaba.com · 주관 내일플러스 · 루아솔루션스</p>
+    <p>문의 · 내일플러스 ceo@biznaeil.com</p>
+    <p style="margin-top: 12px;">© 2026 내일플러스. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- 모바일 하단 고정 CTA: 스크롤 어디에서든 신청 가능 -->
+<div class="sticky-cta">
+  <a class="btn btn-primary" href="#apply" data-cta="sticky">무료 신청하기 →</a>
+</div>
+
+<script>
+  // ─── 비즈내일 워크스페이스 webhook 연동 ───
+  // 폼 제출 즉시 Cloud Functions(asia-northeast3) → Firestore inquiries 컬렉션에 기록되고
+  // 워크스페이스의 "신규 문의" 페이지에 실시간 표시(onSnapshot)됨.
+  // 시크릿이 클라이언트에 노출되는 건 단발 캠페인이라 허용. 1차 방어는 허니팟 + 속도제한.
+  var WEBHOOK_URL = 'https://zapierleadwebhook-b4p7scoj5a-du.a.run.app';
+  var WEBHOOK_SECRET = 'zap-naeil-2026-X9k7p3Lm2qR8wH4';
+  var FORM_ID = 'export-seminar-2026';
+  var CAMPAIGN = '수출세미나 2026-05-14';
+
+  (function setupApplyForm() {
+    var form = document.getElementById('apply-form');
+    if (!form) return;
+
+    var msgEl = document.getElementById('form-msg');
+    var btnEl = document.getElementById('submit-btn');
+    var pageReadyAt = Date.now(); // 1.5초 이내 제출은 봇으로 간주
+
+    // 입력 자동 포맷팅: 모바일 사용자가 하이픈 직접 안 쳐도 되도록
+    // 사업자등록번호: 000-00-00000
+    var biznoEl = document.getElementById('f-bizno');
+    if (biznoEl) {
+      biznoEl.addEventListener('input', function () {
+        var d = this.value.replace(/\D/g, '').slice(0, 10);
+        if (d.length >= 6)      this.value = d.slice(0,3) + '-' + d.slice(3,5) + '-' + d.slice(5);
+        else if (d.length >= 4) this.value = d.slice(0,3) + '-' + d.slice(3);
+        else                    this.value = d;
+      });
+    }
+    // 휴대폰: 010-0000-0000 (10/11자리 모두 수용)
+    var phoneEl = document.getElementById('f-phone');
+    if (phoneEl) {
+      phoneEl.addEventListener('input', function () {
+        var d = this.value.replace(/\D/g, '').slice(0, 11);
+        var mid = d.length >= 11 ? 7 : 6;
+        if (d.length > mid)     this.value = d.slice(0,3) + '-' + d.slice(3, mid) + '-' + d.slice(mid);
+        else if (d.length >= 4) this.value = d.slice(0,3) + '-' + d.slice(3);
+        else                    this.value = d;
+      });
+    }
+
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      msgEl.className = 'form-msg';
+      msgEl.textContent = '';
+
+      // 허니팟 트리거: 사용자에게는 성공한 척, 서버 호출하지 않음
+      if (form.elements['website'].value) {
+        renderSuccess();
+        return;
+      }
+      if (Date.now() - pageReadyAt < 1500) {
+        msgEl.className = 'form-msg err';
+        msgEl.textContent = '잠시 후 다시 시도해 주세요.';
+        return;
+      }
+
+      var get = function (n) { return (form.elements[n] && form.elements[n].value || '').trim(); };
+      // 라디오는 elements[name]이 RadioNodeList → .value 가 선택된 값
+      var getRadio = function (n) {
+        var el = form.elements[n];
+        return el ? (el.value || '') : '';
+      };
+
+      if (!form.elements['agree'].checked) {
+        msgEl.className = 'form-msg err';
+        msgEl.textContent = '개인정보 수집·이용에 동의해 주세요.';
+        return;
+      }
+
+      var required = ['company', 'bizno', 'name', 'position', 'phone', 'email', 'location'];
+      for (var i = 0; i < required.length; i++) {
+        if (!get(required[i])) {
+          msgEl.className = 'form-msg err';
+          msgEl.textContent = '필수 항목을 모두 입력해 주세요.';
+          form.elements[required[i]].focus();
+          return;
+        }
+      }
+      // 사업자등록번호: 숫자 10자리 또는 000-00-00000 형식
+      var biznoDigits = get('bizno').replace(/\D/g, '');
+      if (biznoDigits.length !== 10) {
+        msgEl.className = 'form-msg err';
+        msgEl.textContent = '사업자등록번호는 10자리(000-00-00000)로 입력해 주세요.';
+        form.elements['bizno'].focus();
+        return;
+      }
+      // 이메일 형식 1차 검증 — 서버에서도 검증되겠지만 사용자 피드백 빠르게
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(get('email'))) {
+        msgEl.className = 'form-msg err';
+        msgEl.textContent = '올바른 이메일 주소를 입력해 주세요.';
+        form.elements['email'].focus();
+        return;
+      }
+      // 라디오 필수: 참석 목적 / 수출 이력
+      if (!getRadio('purpose')) {
+        msgEl.className = 'form-msg err';
+        msgEl.textContent = '세미나 참석 목적을 선택해 주세요.';
+        return;
+      }
+      if (!getRadio('export_history')) {
+        msgEl.className = 'form-msg err';
+        msgEl.textContent = '수출 관련 이력을 선택해 주세요.';
+        return;
+      }
+
+      btnEl.disabled = true;
+      btnEl.textContent = '신청 처리 중...';
+
+      try {
+        var res = await fetch(WEBHOOK_URL, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-Zapier-Secret': WEBHOOK_SECRET,
+          },
+          body: JSON.stringify({
+            // 표준 필드: 워크스페이스가 자동 매핑하는 키
+            name: get('name'),
+            phone: get('phone'),
+            email: get('email'),
+            company: get('company'),
+            platform: 'homepage',
+            campaign: CAMPAIGN,
+            form_id: FORM_ID,
+            // 자유 필드: workspace가 formResponses 배열로 변환.
+            // 한국어 키로 보내면 워크스페이스 UI에서 라벨 그대로 노출됨.
+            사업자등록번호: biznoDigits.replace(/(\d{3})(\d{2})(\d{5})/, '$1-$2-$3'),
+            직급: get('position'),
+            사업장위치: get('location'),
+            참석목적: getRadio('purpose'),
+            수출이력: getRadio('export_history'),
+            산업군: get('industry'),
+            참석동기: get('motivation'),
+          }),
+        });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        renderSuccess();
+      } catch (err) {
+        btnEl.disabled = false;
+        btnEl.textContent = '무료 신청하기 →';
+        msgEl.className = 'form-msg err';
+        msgEl.innerHTML = '신청 중 오류가 발생했습니다. 잠시 후 다시 시도하시거나<br/>ceo@biznaeil.com 으로 직접 문의 주세요.';
+      }
+    });
+
+    // 폼만 success-card로 교체. 섹션 헤더(좌석은 한정~)는 유지해 시각 일관성 확보
+    function renderSuccess() {
+      var card = document.createElement('div');
+      card.className = 'success-card';
+      card.innerHTML =
+        '<div class="check">' +
+          '<svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>' +
+        '</div>' +
+        '<h3>신청이 완료되었습니다</h3>' +
+        '<p style="color:var(--gray-700); margin:0;">입력하신 이메일과 연락처로 안내가 발송됩니다.</p>' +
+        '<div class="info">2026. 5. 14. (수) 오후 2시<br/>대전 테크노파크 어울림플라자</div>' +
+        '<p class="small">문의 · 내일플러스 ceo@biznaeil.com</p>';
+      form.replaceWith(card);
+    }
+  })();
+
+  // D-day 카운트다운: KST(UTC+9) 기준 5/14 14:00에 맞춤.
+  // ISO 문자열에 +09:00 명시해 사용자 로컬 타임존과 무관하게 동일하게 계산되도록 함.
+  (function countdown() {
+    var target = new Date('2026-05-14T14:00:00+09:00').getTime();
+    var d = document.getElementById('cd-d');
+    var h = document.getElementById('cd-h');
+    var m = document.getElementById('cd-m');
+    var s = document.getElementById('cd-s');
+    if (!d) return;
+
+    function tick() {
+      var diff = target - Date.now();
+      if (diff <= 0) {
+        d.textContent = h.textContent = m.textContent = s.textContent = '00';
+        return;
+      }
+      var dd = Math.floor(diff / 86400000);
+      var hh = Math.floor((diff % 86400000) / 3600000);
+      var mm = Math.floor((diff % 3600000) / 60000);
+      var ss = Math.floor((diff % 60000) / 1000);
+      d.textContent = String(dd).padStart(2, '0');
+      h.textContent = String(hh).padStart(2, '0');
+      m.textContent = String(mm).padStart(2, '0');
+      s.textContent = String(ss).padStart(2, '0');
+    }
+    tick();
+    setInterval(tick, 1000);
+  })();
+</script>
+
+</body>
+</html>

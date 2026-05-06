@@ -1,0 +1,19 @@
+# OS junk - 윈도우/맥/리눅스에서 자동 생성되는 메타파일 차단
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# 에디터/IDE 임시 파일
+*.swp
+*~
+.vscode/
+.idea/
+
+# 비밀 - 혹시라도 추가될 경우 차단 (현재 파일 없음)
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secret*
