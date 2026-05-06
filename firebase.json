@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "export-seminar-2026",
+    "site": "naeilplus-export-seminar-2026",
     "public": ".",
     "ignore": [
       "firebase.json",
